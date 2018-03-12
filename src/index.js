@@ -4,7 +4,7 @@ class SmartCalculator {
   }
 
   add(number) {
-    this.value = this.value + number;
+    this.value = `${this.value} + ${number}`;
     return this;
   }
 
